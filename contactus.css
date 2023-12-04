@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+    padding: 0px;   
+    background-color: #FFEEF4;
+}
+.head{
+    width: 100%;
+    height: 50vh;
+    background-color: #FFE5E5;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    margin: 0px;
+    height: 10vh;
+    z-index: 1;
+}
+.heading{
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-link{
+    display: flex;
+    width: 65%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.link a{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+h5:hover{
+    border-bottom: 2px solid black;
+}
+
+.blogo{
+    width: 50px;
+    height: 50px;
+}
+.bname{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    font-size: 35px;
+    color: rgb(67, 67, 67);
+}
+.name a{
+    text-decoration: none;
+}
+
+.icons{
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(127, 127, 127);
+    position: relative;
+}
+.contact h1{
+    position: absolute;
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(105, 105, 105);
+    margin: 0% 0% 0%;
+}
+.contact h2{
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Playfair', serif;
+    padding-top: 30px;
+    margin-top: 12%;
+}
+.outer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(127, 127, 127);
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+.inner{
+    width: 70%;
+    display: flex;
+}
+.inner .text{
+    width: 30%;
+}
+.text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+.text h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+.text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.inner .form{
+    width: 70%;
+    float: right;
+}
+.in{
+    margin-top: 5%;
+    text-align: center;
+}
+.in input{
+    width: 330px;
+    height: 30px;
+    float: right;
+    margin: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+.in .name{
+    float: left;
+    margin-left: 3.5%;
+}
+#area{
+    float: right;
+    margin-top: 5%;
+    outline: none;
+}
+.press{
+    margin-top: 15%;
+}
+.form button{
+    width: 80%;
+    margin-left: 13%;
+    margin-top: 5%;
+    height: 40px;
+    background-color: #FFCACC;
+    border: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+}

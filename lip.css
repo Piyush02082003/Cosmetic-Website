@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+    padding: 0px;   
+}
+.head{
+    width: 100%;
+    height: 10vh;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    margin: 0px;
+    height: 10vh;
+}
+.heading{
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-link{
+    display: flex;
+    width: 65%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.link a{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+h5:hover{
+    border-bottom: 2px solid black;
+}
+
+.blogo{
+    width: 50px;
+    height: 50px;
+}
+.bname{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    font-size: 35px;
+    color: rgb(67, 67, 67);
+}
+.name a{
+    text-decoration: none;
+}
+
+.icons{
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+.sales h1{
+    text-align: center;
+    font-size: 40px;
+}
+.sales .links{
+    display: flex;
+    justify-content: center;
+}
+.sales .link{
+    margin-left: 20px;
+    border-right:2px solid #666;
+}
+.sales .links a{
+    padding-right: 20px;
+}
+.sales .links a:hover{
+    text-decoration: underline;
+}
+.sales .links .special{
+    border: none;
+}
+.salehead{
+    font-size: 30px;
+    margin-left: 3%;
+    text-align: center;
+}
+.containers{
+    display: flex;
+    flex-direction: column;
+}
+.rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.first{
+    width: 22%;
+    text-align: center;
+}
+.im img{
+    width: 330px;
+    height: 300px;
+}
+.price{
+    font-family: 'Mukta', sans-serif;
+}
+.price button{
+    width: 100%;
+    height: 40px;
+    font-family: 'Mukta', sans-serif;
+    background-color: white;
+    font-size: 14px;
+}
+.price button:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+.price h4 del{
+    color: rgb(67, 67, 67);
+}
+.price h4{
+    color: pink;
+}
+.price h2{
+    font-size: 18px;
+}
+.price h3{
+    font-size: 14px;
+}
+.price h4{
+    font-size: 15px;
+}
+.menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu div{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-size: 18px;
+    border: 1px solid rgb(67, 67, 67);
+    padding-top: 10px;
+}
+.menu div:hover{
+    box-shadow: 2px 2px 10px 1px rgb(67, 67, 67);
+}
+.last{
+    margin-bottom: 5%;
+}
+.out{
+    width: 100%;
+}
+.out img{
+    width: 100%;
+}
